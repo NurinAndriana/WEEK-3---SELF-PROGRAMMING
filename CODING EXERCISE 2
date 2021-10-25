@@ -1,0 +1,34 @@
+package numericData;
+
+public class Exercise2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+	String name = " Nurin Andriana Binti Mohamad Subri";
+	String Programme = " Science";
+	String MatricNo = "MS2056112540";
+	String College = "Kolej Mara Kulim";
+	
+    double GPA1 = 3.84;
+    double GPA2 = 3.84;
+    double CGPA;
+    
+    
+    CGPA = (GPA1 +GPA2)/2;
+    
+	System.out.println("Name : " + name);
+	System.out.println("Programme :" + Programme);
+	System.out.println("College :" + College);
+	System.out.println("Matric No :" + MatricNo);
+	System.out.println();
+	System.out.println("GPA For Semester 1 :" + GPA1 );
+	System.out.println("GPA For Semester 2 :" + GPA2);
+	System.out.println("CGPA :" + CGPA);
+	System.out.println("\nStatus : Pass and completed Matriculation Programme");
+	
+			
+	}
+
+}

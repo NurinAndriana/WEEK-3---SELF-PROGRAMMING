@@ -1,0 +1,70 @@
+package numericData;
+import java.util.Scanner;
+public class Exercise3 {
+
+	
+	
+
+		public static void main(String[] args) {
+			// TODO Auto-generated method stub
+	       // Add five integers and display their sum.
+			// Display average of five integers.
+			
+			int number1;
+			int number2;
+		    int number3;
+			int number4;
+			int number5 ;
+			int number6;
+			int sum; //Declare an integer variable called sum to hold the sum value
+			String name;
+			double total;       // 500.50 
+		    double amount;
+		    double balance; //1000.70
+			
+			
+			
+			
+			Scanner min = new Scanner(System.in);
+			
+			System.out.print("Please Enter Name :");
+		    name = min.nextLine();
+			System.out.println("Please enter amount:");
+			System.out.print("Number 1:");
+			number1 = min.nextInt();
+			System.out.print("Number 2:");
+			number2 = min.nextInt();
+			System.out.print("Number 3:");
+		    number3 = min.nextInt();
+		    System.out.print("Number 4:");
+		    number4 = min.nextInt();
+		    System.out.print("Number 5:");
+		    number5 = min.nextInt();
+		    System.out.print("Number 6:");
+		    number6 = min.nextInt();
+		    System.out.print("Please Enter Your total:");
+		    total = min.nextDouble();
+		    System.out.print("Please enter your amount:");
+		    amount = min.nextDouble();
+		     balance = total-amount;
+			sum = number1+number2+number3+number4+number5+number6;
+			System.out.println();
+			System.out.println("Name :" + name);
+			System.out.println("The sum is " + sum);
+			System.out.println("The balance is :" + balance );
+		    
+		    System.out.print("Do you want to proceed :");
+		    char proceed = min.next().charAt(0);
+		   
+			 if (proceed=='Y')
+		        System.out.print("\nYES");
+		        else 
+		        	System.out.print("\nNO");
+			 
+			 
+			
+			
+			
+			
+		}}
+	
